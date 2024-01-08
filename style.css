@@ -1,0 +1,486 @@
+/* common styles start*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+h1, h4 {
+    font-family: 'Merriweather', serif;
+}
+
+h2, h3, p, button {
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    color: white;
+    font-size: 20px;
+    border: 0;
+    transition: 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+main section {
+    margin-bottom: 120px;
+}
+
+header, main section {
+    border-radius: 16px;
+}
+
+/* common styles end*/
+
+/* header style start */
+
+header {
+    background: linear-gradient(180deg, #070211, rgba(7, 2, 17, 0.00)), url('images/Banner Image.png');
+    padding: 175px 0;
+}
+
+#header {
+    margin: 50px auto 120px;
+}
+
+.header-text {
+    max-width: 632px;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 10px 10px 20px black, -10px -10px 20px black;
+}
+
+.header-text h4 {
+    color: #f52e39;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.header-text h1 {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* header style end */
+
+/* main style start */
+
+/* offer style start */
+
+#offer .offer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.offer-container h2 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.offer-container p {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.offer-container h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.offer-container img {
+    width: 100%;
+}
+
+/* offer style end */
+
+/* party style start */
+
+#party {
+    background: linear-gradient(90deg, #070211, rgba(7, 2, 17, 0.00)), url('images/Vectorrr.png');
+    padding: 66px 138px 65px 126px;
+}
+
+.party-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.party-text {
+    max-width: 700px;
+}
+
+.party-text h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.party-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+.party-text button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+}
+
+.party-text button:hover {
+    background-color: green;
+}
+
+/* party style end */
+
+/* details style start */
+
+#details {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.00));
+    text-align: center;
+    padding: 100px 385px 110px;
+}
+
+.details-text h3 {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.details-text h3 .important {
+    color: #F00;
+}
+
+#details button {
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 48px;
+}
+
+/* details style end */
+
+/* new offer style start */
+
+#new-offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-offer-text {
+    max-width: 394px;
+}
+
+.new-offer-text h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.new-offer-text h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.new-offer-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    line-height: 32px; 
+}
+
+.new-offer-img {
+    padding: 35px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.new-offer-wish {
+    max-width: 276px;
+    margin-top: auto;
+}
+
+.new-offer-wish h2 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.new-offer-wish p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+/* new offer style end */
+
+/* functional style start */
+
+#functional {
+    text-align: center;
+}
+
+.functional-text {
+    max-width: 1068px;
+    margin: 0 auto;
+    padding-bottom: 65px;
+}
+
+.functional-text h3 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.functional-text h1 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.functional-text h1 .important {
+    color: #F00;
+}
+
+.functional-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.functional-girl-img {
+    text-align: right;
+    position: relative;
+}
+
+.functional-girl-img img {
+    vertical-align: bottom;
+}
+
+.discount-img {
+    position: absolute;
+    right: 286px;
+    bottom: 60px;
+}
+
+.functional-rect-img {
+    position: relative;
+}
+
+.box-img {
+    position: absolute;
+    bottom: 0px;
+}
+
+/* functional style end */
+
+/* gift style start */
+
+.gift-text {
+    max-width: 896px;
+}
+
+.gift-text h3 {
+    margin-bottom: 16px;
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gift-text h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+} 
+
+.gift-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    line-height: 32px; 
+    margin-bottom: 48px;
+}
+ .gifts-item > .gifts-row {
+    margin-bottom: 24px;
+ }
+
+.gifts-row {
+    display: flex;
+    gap: 24px;
+}
+
+.gifts-row img {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.gifts-row img:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+/* gift style end */
+
+/* subscribe style start */
+
+#subscribe {
+    text-align: center;
+    padding: 80px 210px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-container {
+    max-width: 896px;
+    margin: 0 auto;
+}
+
+.subscribe-container img {
+    margin-bottom: 40px;
+}
+
+.subscribe-container h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.subscribe-container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.subscribe-container form {
+    max-width: 648px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.subscribe-container form input {
+    flex-grow: 1;
+    padding: 25px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+}
+
+.subscribe-container form button {
+    padding: 25px 55px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+
+/* subscribe style end */
+
+/* main style end */
+
+/* footer style start */
+
+footer {
+    background-color: #070211;
+    padding: 120px 0;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footer-contact p, a, i {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-contact a {
+    text-decoration: none;
+}
+
+.footer-contact i {
+    margin-right: 5px;
+}
+
+.footer-social-icon {
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-social-icon img:hover {
+    cursor: pointer;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.footer-text button {
+    padding: 25px 50px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.footer-text button:hover {
+    background-color: #F00;
+}
+
+
+/* footer style end */
