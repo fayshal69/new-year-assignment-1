@@ -346,20 +346,23 @@ header {
     line-height: 32px; 
     margin-bottom: 48px;
 }
+ .gifts-item > .gifts-row {
+    margin-bottom: 24px;
+ }
 
-.gifts-item {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.gifts-row {
+    display: flex;
     gap: 24px;
+    width: 100%;
 }
 
-.gifts-item img {
+.gifts-item .gifts-row img {
     opacity: 0.8;
     transition: 0.3s;
     width: 100%;
 }
 
-.gifts-item img:hover {
+.gifts-row img:hover {
     opacity: 1;
     cursor: pointer;
     transform: scale(1.03);
