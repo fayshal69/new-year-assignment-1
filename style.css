@@ -8,6 +8,7 @@
 }
 
 .container {
+    width: 82.5%;
     max-width: 1320px;
     margin: 0 auto;
 }
@@ -303,6 +304,10 @@ header {
     bottom: 60px;
 }
 
+.functional-rect-img img {
+    width: 100%;
+}
+
 .functional-rect-img {
     position: relative;
 }
@@ -341,21 +346,20 @@ header {
     line-height: 32px; 
     margin-bottom: 48px;
 }
- .gifts-item > .gifts-row {
-    margin-bottom: 24px;
- }
 
-.gifts-row {
-    display: flex;
+.gifts-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
 
-.gifts-row img {
+.gifts-item img {
     opacity: 0.8;
     transition: 0.3s;
+    width: 100%;
 }
 
-.gifts-row img:hover {
+.gifts-item img:hover {
     opacity: 1;
     cursor: pointer;
     transform: scale(1.03);
