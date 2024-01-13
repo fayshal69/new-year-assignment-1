@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+.hidden {
+    display: none;
+}
+
 .container {
     max-width: 1320px;
     margin: 0 auto;
@@ -226,7 +230,7 @@ header {
 
 .new-offer-img {
     padding: 35px;
-    border-radius: 463px;
+    border-radius: 50%;
     border: 15px solid #F00;
 }
 
@@ -345,14 +349,11 @@ header {
     line-height: 32px; 
     margin-bottom: 48px;
 }
- .gifts-item > .gifts-row {
-    margin-bottom: 24px;
- }
 
 .gifts-row {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-    width: 100%;
 }
 
 .gifts-item .gifts-row img {
@@ -490,3 +491,264 @@ footer {
 
 
 /* footer style end */
+
+/* responsive for mobile start */
+
+@media screen and (max-width: 576px) {
+    main section {
+        margin-bottom: 60px;
+    }
+
+    header {
+        padding: 60px 10px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #header {
+        margin: 10px auto 60px;
+    }
+
+    .header-text h1 {
+        font-size: 64px;
+    }
+
+    .offer-container {
+        padding: 20px;
+    }
+
+    .offer-container h2 {
+        font-size: 68px;
+        margin-bottom: 28px;
+    }
+
+    .offer-container p {
+        font-size: 20px;
+    }
+
+    .offer-container h3 {
+        font-size: 38px;
+    }
+
+    #new-offer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        align-items: start;
+    }
+
+    .new-offer-img {
+        border-radius: 50%;
+        border: 10px solid #F00;
+    }
+
+    .new-offer-img img {
+       width: 100%;
+    }
+
+    #party {
+        padding: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .party-container {
+        flex-direction: column;
+    }
+
+    .party-text h1 {
+        font-size: 48px;
+    }
+
+    #details {
+        padding: 40px 20px;
+    }
+
+    .details-text h3 {
+        font-size: 28px;
+    }
+
+    #functional {
+        padding: 20px;
+    }
+
+    .functional-text h1 {
+        font-size: 56px;
+    }
+
+    .functional-img img {
+        width: 100%;
+    }
+
+    .functional-girl-img {
+        margin-bottom: 300px;
+    }
+
+    #gift {
+        padding: 20px;
+    }
+
+    .gift-text h1 {
+        font-size: 36px;
+    }
+
+    .gifts-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #subscribe {
+        padding: 40px 20px;
+    }
+
+    .subscribe-container h1 {
+        font-size: 36px;
+    }
+
+    .subscribe-container form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .subscribe-container form input, .subscribe-container form button {
+        border-radius: 50px;
+    }
+
+    footer {
+        padding: 60px 20px;
+    }
+
+    .footer-contact {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-social-icon {
+        padding: 30px;
+        gap: 16px;
+    }
+
+    .footer-text {
+        flex-direction: column-reverse;
+    }
+
+    body {
+        padding: 0 5px;
+    }
+}
+
+/* responsive for mobile end */
+
+/* responsive for tab start */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    main section {
+        margin-bottom: 90px;
+    }
+
+    header {
+        padding: 120px 20px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #header {
+        margin: 20px auto 80px;
+    }
+
+    .header-text h1 {
+        font-size: 68px;
+    }
+    .offer-container {
+        padding: 20px;
+    }
+
+    .offer-container h2 {
+        font-size: 78px;
+        margin-bottom: 38px;
+    }
+
+    .offer-container p {
+        font-size: 22px;
+    }
+
+    .offer-container h3 {
+        font-size: 44px;
+    }
+
+    #new-offer {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+        align-items: start;
+    }
+
+    .new-offer-img {
+        border-radius: 50%;
+        border: 15px solid #F00;
+    }
+
+    .new-offer-img img {
+       width: 100%;
+    }
+
+    #party {
+        padding: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .party-container {
+        flex-direction: column;
+    }
+
+    .party-text h1 {
+        font-size: 58px;
+    }
+
+    #details {
+        padding: 60px 30px;
+    }
+
+    #functional {
+        padding: 30px;
+    }
+
+    .functional-text h1 {
+        font-size: 64px;
+    }
+
+    .functional-img img {
+        width: 100%;
+    }
+
+    .functional-girl-img {
+        margin-bottom: 500px;
+    }
+
+    #gift {
+        padding: 30px;
+    }
+
+    .gift-text h1 {
+        font-size: 42px;
+    }
+
+    .gifts-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #subscribe {
+        padding: 60px 30px;
+    }
+
+    footer {
+        padding: 90px 30px;
+    }
+    body {
+        padding: 0px 10px;
+    }
+}
+
+/* responsive for tab end */
